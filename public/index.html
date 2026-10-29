@@ -1,0 +1,157 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CareerConnect | Home</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f7fb;
+      color: #183153;
+    }
+
+    header {
+      background-color: #102d50;
+      color: white;
+      padding: 20px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+
+    .logo {
+      font-size: 26px;
+      font-weight: bold;
+    }
+
+    .logo span {
+      color: #20b7bd;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 18px;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 90px 20px;
+    }
+
+    .hero h1 {
+      font-size: 42px;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      color: #526579;
+      max-width: 600px;
+      margin: 0 auto 30px;
+      line-height: 1.6;
+    }
+
+    .button {
+      display: inline-block;
+      background-color: #009da5;
+      color: white;
+      padding: 14px 25px;
+      border-radius: 6px;
+      text-decoration: none;
+      margin: 5px;
+    }
+
+    .features {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 25px;
+      padding: 30px 20px 80px;
+    }
+
+    .card {
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      width: 300px;
+      box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+    }
+
+    .card h2 {
+      color: #007f89;
+    }
+
+    footer {
+      text-align: center;
+      background: #102d50;
+      color: white;
+      padding: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="logo">Career<span>Connect</span></div>
+    <nav>
+      <a href="#features">Features</a>
+      <a href="#features">Job Tracker</a>
+      <a href="#features">Appointments</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Welcome to CareerConnect</h1>
+      <p>
+        Keep your job search organized in one place.
+        Track applications, manage interview appointments,
+        and stay on top of your next opportunity.
+      </p>
+      <a class="button" href="#features">Get Started</a>
+    </section>
+
+    <section class="features" id="features">
+      <div class="card">
+        <h2>Job Application Tracker</h2>
+        <p>
+          Keep track of the jobs you've applied for,
+          update application statuses, and organize
+          important job details.
+        </p>
+      </div>
+
+      <div class="card">
+        <h2>Appointment Booking</h2>
+        <p>
+          Manage your upcoming interviews and appointments.
+          Stay organized by keeping important dates
+          and scheduling details together.
+        </p>
+      </div>
+
+      <div class="card">
+        <h2>Easy Organization</h2>
+        <p>
+          Access your job applications and appointments
+          through one simple platform.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 CareerConnect | COMP229 Group Project</p>
+  </footer>
+</body>
+</html>
