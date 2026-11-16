@@ -1,0 +1,228 @@
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f7fb;
+      color: #183153;
+    }
+
+    header {
+      background-color: #102d50;
+      color: white;
+      padding: 20px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+
+    .logo {
+      font-size: 26px;
+      font-weight: bold;
+    }
+
+    .logo span {
+      color: #20b7bd;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 18px;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 90px 20px;
+    }
+
+    .hero h1 {
+      font-size: 42px;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      color: #526579;
+      max-width: 600px;
+      margin: 0 auto 30px;
+      line-height: 1.6;
+    }
+
+    .button {
+      display: inline-block;
+      background-color: #009da5;
+      color: white;
+      padding: 14px 25px;
+      border-radius: 6px;
+      text-decoration: none;
+      margin: 5px;
+    }
+
+    .features {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 25px;
+      padding: 30px 20px 80px;
+    }
+
+    .card {
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      width: 300px;
+      box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+    }
+
+    .card h2 {
+      color: #007f89;
+    }
+
+    footer {
+      text-align: center;
+      background: #102d50;
+      color: white;
+      padding: 20px;
+    }
+  
+/* Registration Form */
+
+#registerForm {
+    background-color: white;
+    max-width: 450px;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+    text-align: left;
+}
+
+#registerForm div {
+    margin-bottom: 18px;
+}
+
+#registerForm label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+#registerForm input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccd5df;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+#registerForm input:focus {
+    outline: none;
+    border-color: #009da5;
+}
+
+#registerForm button {
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+/* Login Form */
+
+#loginForm {
+    background-color: white;
+    max-width: 450px;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+    text-align: left;
+}
+
+#loginForm div {
+    margin-bottom: 18px;
+}
+
+#loginForm label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+#loginForm input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccd5df;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+#loginForm input:focus {
+    outline: none;
+    border-color: #009da5;
+}
+
+#loginForm button {
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+/* Dashboard Styling */
+
+.welcome {
+    background-color: #eaf2ff;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 30px auto;
+    max-width: 1000px;
+}
+
+.dashboard-section {
+    background-color: white;
+    padding: 25px;
+    margin: 20px auto;
+    max-width: 1000px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-section h2 {
+    color: #2457a7;
+}
+
+.welcome h2 {
+    color: #2457a7;
+}
+
+.dashboard-section p,
+.welcome p {
+    color: #555;
+}
+/* Job Applications Table */
+
+.dashboard-section table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.dashboard-section th,
+.dashboard-section td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.dashboard-section th {
+    background-color: #2457a7;
+    color: white;
+}
+
+.dashboard-section tr:hover {
+    background-color: #f5f7fa;
+}
