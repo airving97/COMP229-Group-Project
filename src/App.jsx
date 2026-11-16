@@ -8,7 +8,7 @@ import Dashboard from './pages/Dashboard.jsx'
 
 function App() {
   return (
-    <BrowserRouter>
+   <BrowserRouter basename="/COMP229-Group-Project">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
